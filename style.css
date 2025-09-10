@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background: #f4f4f9;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #043f7a;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav button {
+  background: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #043f7a;
+}
+
+p {
+  text-indent: 40px;
+  line-height: 1.6;
+}
+
+.project {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #1e1e1e;
+  color: #f4f4f9;
+}
+
+.dark-mode section {
+  background: #2c2c2c;
+}
+
+.dark-mode nav {
+  background: #111;
+}
+
+.dark-mode nav a {
+  color: #ddd;
+}
+
+.dark-mode nav button {
+  background: #333;
+  color: white;
+}
